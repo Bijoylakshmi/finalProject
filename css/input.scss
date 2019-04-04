@@ -1,0 +1,140 @@
+$font-stack:   'Tenor Sans', sans-serif;
+body {
+  font: 100% $font-stack;
+}
+/*social area*/
+#header_top{}
+.menu-social-icons {
+  padding-left: 10px;
+}
+.contact-detail1 li {
+  float: left;
+  list-style: outside none none;
+  padding: 8px 0;
+  font-size: 12px;
+  color: #fdfdfd;
+}
+.contact-detail1 li a{color: #fdfdfd;}
+.contact-detail1 li a .fa {
+  font-size: 14px;
+  margin-right: 20px;
+  vertical-align: middle;
+  color: #fdfdfd;
+}
+.text-secondary{color: #fdfdfd;}
+.contact-detail2 li {
+  float: left;
+  list-style: outside none none;
+  margin: 2px 2px 0px 0px;
+}
+.contact-detail2 li a{color: #fdfdfd;}
+.contact-detail2 li a .fab {
+  float: left;
+  list-style: outside none none;
+  margin-bottom: 0;
+  margin-right: 12px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid #fdfdfd;;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.contact-detail2 li a .fab:hover{
+  background-color: #fdfdfd;
+  color: #000;
+
+}
+.icon-xs {
+  font-size: 12px;
+  line-height: 12px;
+}
+/*
+remove bottom margin from bootstrap's unordered listbox
+*/
+.list-inline{
+  margin-bottom:0;
+}
+/*header area*/
+#header_area{
+  background-color: #AAA;
+}
+/*banner area*/
+#slider_area{}
+.carousel-caption h1{
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* display: inline-block; */
+}
+.carousel-caption p{
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  /* margin-top: 30px; */
+}
+/*information area*/
+#information_area{
+  background-color: #10C7F5;
+}
+.gap{margin-top: 50px;}
+.main-title{font-family: 'Krona One', sans-serif;}
+.center{text-align: center;}
+.d-flex{border: 5px solid #fff;}
+.d-flex:hover{
+  color: #f0f;
+  border: 5px solid RGBA(255,255,255,0.7);
+
+}
+/* slider_area */
+.slider-heading{font-family: 'Krona One', sans-serif;}
+/*downloade area*/
+#downloade_area{
+  background: url("../images/downloade.jpg");
+  background-color: #aaa;
+  background-size: cover;
+  background-position: center center;
+}
+.wide_button {
+  padding: 24px 50px;
+  border-radius: 50px!important;
+}
+.topmargin_20{margin-top: 220px;}
+.topmargin_40{margin-top: 40px;}
+.downloade_area{font-family: 'Krona One', sans-serif;}
+
+/* useful_info_area */
+#useful_info_area{
+  background: url("../images/info_bg.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+.useful_info_area_cover{
+  position: relative;
+  background-color: RGBA(16,199,245,0.9);
+}
+.btn{
+  border-radius: 25px;
+  min-width: 200px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: .3s ease-out;
+  border-width: 2px;
+}
+.section_header{font-family: 'Krona One', sans-serif;}
+#footer_area{}
+#footer_area ul{list-style: none;}
+/* all page banner area */
+#banner_area_und{
+  background: url("images/banner3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#banner_area_und h1{font-family: 'Krona One', sans-serif;}
+/* Contactus_und */
+#Contactus_und{
+  background-color: #10C7F5;
+  /* background-color: RGBA(16,199,245,0.6); */
+}
+.contact_title {font-family: 'Krona One', sans-serif;}
+.main-title {font-family: 'Krona One', sans-serif;}
