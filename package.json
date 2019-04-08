@@ -1,0 +1,27 @@
+{
+  "name": "solaren",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "join": "concat -o css/styles.css css/output.css css/other.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bijoylakshmi/finalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bijoylakshmi/finalProject/issues"
+  },
+  "homepage": "https://github.com/Bijoylakshmi/finalProject#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^4.11.0"
+  },
+  "keywords": [],
+  "description": ""
+}
