@@ -4,6 +4,8 @@
         <field id="tpd3" name="Name" width="167" order="0"/>
         <field id="tpd4" name="Begin date" width="65" order="1"/>
         <field id="tpd5" name="End date" width="64" order="2"/>
+        <timeline><![CDATA[13]]></timeline>
+        <option id="color.recent"><![CDATA[#00ccff #33ccff #00ffff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -33,7 +35,11 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="basic structure" color="#8cb6ce" meeting="false" start="2019-03-26" duration="4" complete="0" thirdDate="2019-03-26" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="basic plan" color="#33ccff" meeting="false" start="2019-03-26" duration="3" complete="0" thirdDate="2019-03-26" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="basic structure create" color="#33ccff" meeting="false" start="2019-03-27" duration="2" complete="0" thirdDate="2019-03-26" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="structure create properly" color="#33ccff" meeting="false" start="2019-03-29" duration="4" complete="0" thirdDate="2019-03-26" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="put all  document" color="#00ccff" meeting="false" start="2019-04-03" duration="2" complete="0" thirdDate="2019-03-26" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="task_16" color="#00ccff" meeting="false" start="2019-04-03" duration="3" complete="0" thirdDate="2019-03-26" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
