@@ -131,9 +131,27 @@ remove bottom margin from bootstrap's unordered listbox
   background-position: center center;
 }
 #banner_area_und h1{font-family: 'Krona One', sans-serif;}
-/* Contactus_und */
-#Contactus_und{
+/* solar_und */
+#solar_und{
   background-color: #10C7F5;
+}
+/* about_und */
+#about_und{
+  background-color: #10C7F5;
+}
+/* Contactus_und */
+#contactus_und{
+  background-color: #10C7F5;
+  min-height: 700px;
 }
 .contact_title {font-family: 'Krona One', sans-serif;}
 .main-title {font-family: 'Krona One', sans-serif;}
+
+.btn-info{background-color: #10C7F5;}
+.btn-info:hover{
+  background-color: #10C7F5;
+  border-color: #ffffff;
+}
+@media only screen and (min-width: 582px) and (max-width: 984px){
+.container{max-width: 930px!important;}
+}
